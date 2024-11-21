@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    color: #000;
+    font: normal 0.8rem Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 1em;
+    line-height: 1.7em;
+    padding: 0 0 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: black;
+    font-size: 1.7em;
+    letter-spacing: -1px;
+    margin: 0 0 10px 0;
+    text-shadow: 0px -1px 0px lightgray;
+}
+
+h3{
+    color: black;
+    font: bold 1.3em Arial, Helvetica, sans-serif;
+}
+
+main, header, section, footer{
+    margin: 0 auto;
+}
+
+header{
+    height: 80px;
+    width: 940px;
+    padding: 15px 0 0 0;
+    position: relative;
+}
+
+section#contenido{
+    background-color: white;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    width: 920px;
+}
+
+#banner{
+    width: 300px;
+    float: left;
+    height: 50px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+#banner h1{
+    font: normal 2.5em Arial, Helvetica, sans-serif;
+    letter-spacing: -3px;
+    text-shadow: 1px 1px black;
+    color: black;
+}
+
+#img_grande{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ajuste{
+    background-color: lightgray;
+    color: black;
+    float: left;
+    margin-right: 26px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: justify;
+    text-align: center;
+}
+
+.pele{
+    background-color: lightgray;
+    color: black;
+    float: left;
+    margin-right: 26px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: justify;
+    width: 240px;
+}
+
+.maradona{
+    background-color: lightgray;
+    color: black;
+    float: left;
+    margin-right: 26px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: justify;
+    width: 240px;
+}
+
+.cristiano{
+    background-color: lightgray;
+    color: black;
+    float: left;
+    margin-right: 26px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: justify;
+    width: 240px;
+}
+
+.button{
+    font: bold 1.1em Arial, Helvetica, sans-serif;
+    height: 15px;
+    width: 80px;
+    padding: 5px 2px 7px 7px;
+    background-color: whitesmoke;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+
+.button a{
+    color: #000;
+    text-shadow: none;
+}
+
+#content{
+    margin: 20px;
+    margin-top: 220px;
+    padding: 20px;
+    text-align: justify;
+    width: 800px;
+}
+
+footer{
+    background: -moz-linear-gradient(#BBB, #BBB);
+    background: -o-linear-gradient(#BBB, #BBB);
+    background: -webkit-linear-gradient(#BBB, #BBB);
+    height: 60px;
+    margin-top: 30px;
+}
+
+#footer{
+    color: #1D1D1D;
+    width: 100%;
+    margin-top: 138px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: 1px 1px lightgrey;
+}
+
+
+/* Media query para pantallas medianas */
+@media screen and (max-width: 768px) {
+    #img_grande {
+        height: auto;
+    }
+
+    .pele, .maradona, .cristiano {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    #content{
+        width: 40%;
+    }
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 280px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .pele, .maradona, .cristiano {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    #content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1, h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 280px) {
+    body {
+        font-size: 12px;
+    }
+
+    h1, h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #banner {
+        max-height: 210px; /* Ajusta la altura máxima para pantallas medianas */
+    }
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 280px) {
+    #banner {
+        max-height: 210px; /* Ajusta la altura máxima para pantallas pequeñas */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*Prueba CSS*/
+
+
+
+
