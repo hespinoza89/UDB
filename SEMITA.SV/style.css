@@ -1,0 +1,27 @@
+* { 	padding: 0;
+		margin: 0;  }
+
+body{ 	color: #FFF;
+		margin-top:50px;
+		background-image: linear-gradient(to left, #42275A, #441B3E); }
+
+a{ 	color: #FF8000; }
+
+#titulo{	color: white;
+			height: 50px;
+			width: 80%;
+			margin: 0 auto;
+			text-align: center; }
+
+#cuadro{	height: 50px;
+			width: 400px;
+			margin: 0 auto;
+			padding: 0;
+			text-align: center; }
+
+footer{	padding-top: 10px;
+		width: 100vw;
+		border-top: 1px solid white;
+		position: absolute;
+		bottom: 50;
+		text-align: center;  }
